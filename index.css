@@ -1,0 +1,112 @@
+body{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 20px;
+    background-image: url(./imagens/fundo_tela.jpg);
+    color: white;
+}
+header{
+    width: 1176px;
+    height: 1176px;
+    margin-top: -746px;
+    margin-left: 565px;
+    background-color: rgba(128, 0, 0, 0.58);
+    float: right;
+    border: 2px solid rgb(156, 7, 7);
+    border-radius: 0px 0px 100% 100%;
+    text-align: center;
+    color: white;
+    text-shadow: 10px 20px 12px black;
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: rgb(160, 2, 2);
+    font-size: 20px;
+    position: fixed;
+}
+img{
+    margin: 5px;
+    padding: 5px;
+    width:150px ;
+    height: 130px;
+    border-radius: 100%;
+    float: left;
+    border: 2px solid rgb(156, 7, 7);
+}
+article{
+    margin-left: 10px;
+    width:50%;
+    display: inline;
+    float: left;
+    position: absolute;
+}
+.pessoas input{
+    width: 50px;
+}
+.carnes input{
+    width: 35px;
+}
+.acompanhamentos input{
+    width: 35px;
+}
+.bebidas input{
+    width: 35px;
+}
+legend{
+    font-size: 25px;
+    text-shadow: 3px 5px 10px orangered;
+}
+p{
+    font-size: 20px;
+    text-shadow: 3px 5px 10px orangered;
+}
+h1{
+    margin-top: 750px;
+    margin-bottom: 0%;
+    font-size: 25px;
+}
+.img1{
+    width: 100px;
+    height: 100px;
+    margin-top: 145px;
+    margin-left: 250px;
+}
+.img2{
+    width: 100px;
+    height: 100px;
+    margin-top: 50px;
+    margin-left: 10px;
+}
+.img3{
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+.img4{
+    width: 100px;
+    height: 100px;
+    margin-top: 55px;
+    margin-left: 40px;
+}
+.img6{
+    width: 100px;
+    height: 100px;
+    margin-top: 150px;
+    margin-left: 5px;
+}
+.img5{
+width: 307px;
+height: 307px;
+margin-top: -80px;
+margin-left: 425px;
+}
+fieldset{
+    border: none;
+}
+.botao{
+    color: white;
+    margin-top: 20px;
+    background-image: url(./imagens/fundo_tela.jpg);
+    width: 163px;
+    height: 44px;
+    border-radius: 50px;
+}

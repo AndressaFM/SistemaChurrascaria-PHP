@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de churrasco</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,400&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Churrasco - Andressa Fernandes Macedo</h1>
+        <div class="imagem">
+            <img src="./imagens/Fundo1.jpg" alt="" class="img1">
+            <img src="./imagens/fundo2.jpg" alt="" class="img2">
+            <img src="./imagens/fundo3.jpg" alt="" class="img3">
+            <img src="./imagens/fundo4.jpg" alt="" class="img4">
+            <img src="./imagens/fundo6.jpg" alt="" class="img6"> 
+            <img src="./imagens/fundo5.webp" alt="" class="img5">
+           </div>
+    </header>
+    <nav>
+        
+    </nav>
+    <aside>
+        
+    </aside>
+    <article>
+    <form method="post" action="enviando.php">
+        <fieldset>  
+           <legend> Preencha com as informações para o seu churrasco:</legend>
+        
+        <div class="pessoas">
+        <p>Quantas pessoas?</p>
+        <label for="">Homens:</label><input type="number" name="homens" id="">
+        <label for="">Mulheres:</label> <input type="number" name="mulheres" id="">
+        <label for="">Crianças:</label> <input type="number" name="criancas" id=""><br>
+        <label for="">Consumo estimado:</label> <input type="number" name="consumo" id="">
+       </div>
+       <div class="carnes">
+        <p>Quais carnes?</p>
+        <input type="checkbox" name="carne_sem_osso" value="carne sem osso" id=""> <label for="">Carne bovina sem osso (Vazio, picanha, entrecorte, maminha, alcatra)</label> <br><label for="">(Quant.)</label> <input type="number" name="quantidade_carne_sem_osso" id=""><br>
+        <input type="checkbox" name="carne_com_osso" value="carne com osso" id=""> <label for="">Carne bovina com osso (ripa ou costela)</label> <br><label for="">(Quant.)</label> <input type="number" name="quantidade_carne_com_osso" id=""><br>
+        <input type="checkbox" name="galeto_frango" value="galeto/frango" id=""> <label for="">Galeto/Frango (coca e sobrecoxa)</label><br><label for="">(Quant.)</label> <input type="number" name="quantidade_galeto_frango" id=""><br>
+        <input type="checkbox" name="suino_ovino" value="suino/ovino" id=""> <label for="">Suino/Ovino</label><br><label for="">(Quant.)</label> <input type="number" name="quantidade_suino_ovino" id=""><br>
+        <input type="checkbox" name="coracao_frango" value="coracao de frango" id=""> <label for="">Coração de frango</label><br><label for="">(Quant.)</label> <input type="number" name="quantidade_coracao_frango" id=""><br>
+        <input type="checkbox" name="linguica_salsichao" value="Linguica/ salsichao" id=""> <label for="">Linguiça/ Salsichão</label><br><label for="">(Quant.)</label> <input type="number" name="quantidade_linguica_salsichao" id="">
+       </div>
+       <div class="acompanhamentos">
+        <p>Acompanhamentos</p>
+        <input type="checkbox" name="arroz" value="arroz" id=""> <label for="">Arroz</label><br><label for="">(Quant.)</label> <input type="number" name="quantidade_arroz" id=""><br>
+        <input type="checkbox" name="maionese" value="maionese" id=""> <label for="">Maionese</label><br><label for="">(Quant.)</label> <input type="number" name="quantidade_maionese" id=""><br>
+        <input type="checkbox" name="abacaxi" value="abacaxi com canela" id=""> <label for="">Abacaxi com canela</label><br><label for="">(Quant.)</label> <input type="number" name="quantidade_abacaxi" id=""><br>
+        <input type="checkbox" name="pao" value="Pão com alho" id=""> <label for="">Pão com alho</label><br><label for="">(Quant.)</label> <input type="number" name="quantidade_pao" id=""><br>
+        <input type="checkbox" name="tomate" value="tomate" id=""> <label for="">Tomate</label><br><label for="">(Quant.)</label> <input type="number" name="quantidade_tomate" id=""><br>
+        <input type="checkbox" name="alface" value="alface" id=""> <label for="">Alface</label><br><label for="">(Quant.)</label> <input type="number" name="quantidade_alface" id="">
+       </div>
+       <div class="bebidas">
+        <p>Bebidas</p>
+        <input type="checkbox" name="cerveja" value="cerveja" id=""> <label for="">Cervejas</label><br><label for="">(Quant.)</label> <input type="number" name="quantidade_cerveja" id=""><br>
+        <input type="checkbox" name="refrigerante" value="refrigerante" id=""> <label for="">Refrigerantes</label><br><label for="">(Quant.)</label> <input type="number" name="quantidade_refrigerante" id="">
+       </div>
+
+       <input type="submit" name="enviar" value="Enviar" class="botao">
+    </fieldset> 
+    </form>
+
+    </article>
+    <footer>
+
+    </footer>
+</body>
+</html>
